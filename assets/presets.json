@@ -1,0 +1,82 @@
+{
+  "plugins": [
+    {
+      "name": "QoL Bar",
+      "website": "",
+      "presets": [
+        {
+          "id": "1",
+          "name": "Demi-Summon glamour (seperated)",
+          "created": "2021/12/13 10:39:00.000",
+          "author": "Valkynaz#5467",
+          "description": null,
+          "originalMessage": "https://discord.com/channels/581875019861328007/795684290750971945/919886171583164456",
+          "code": "H4sIAAAAAAAACu2aW4+aQBTHvwqZ9K1IYbjVeavWbk023e1isklX04yASsrFcGn2Er97D8zqUtwKJtasOA/oYS5nzvxlfnORJ/QufVi6iKDv0WWPxtIwWEZx6oXz94P73BqGs0gUWCYS0VRBJMx8HyyMyFO1Nlz92bxUPoS8z27gdawsCKJQuPBpAMm/EFFURdFUESWXiNxtObIW234s79EFM4W6IrIhgTmS4fMakRn1E3cfd4Rgo6sc1KGhqJrGPMrM44elmyYQtzBmMvToggZZOkaQkATU98f/bJTJHDBXPiIa7mpdw8RdPb//VKR7PyB2KTeuIEoZLLgmcHsD2Xm67bCCtmOx71uooOWGdbVpze4zBawlOPkoauDAtp4d21/WxrfeS4WvJbO/sX960MZK3EMsvbFYget4WXDeahmN1fJpPHfbJxbUbu8vjE1DPzKNrheRG3r3nEZNaFQWi9OojkZltTiNTpFGJj4ejW6y6YMwnMUeXxnVsagiFSfRDhJVtOIcOkkOacfj0CBwY+o7wgWNM4fydVENi16Ri/NoB49e0Ysz6SSZpB6PSaNoSR+FkZfSkAOpBkhVrTiNdtCoKhZH0dtBUYtPuvK/AKIsPuxJ/qF3q9jU1a1xM2eRw1Ap9hSdwdwrBk6xzejTeJqFtt/CY9fm86KuNRZtvRbiuhFdMRvLxqDNRSsN+TrV2jYcWzw3/If9fg3J2VZsb5TfTc4Y5BXNOMkbkryiG0f51pivlY2z/JzPSWpYXmxl+ap8P5j/LRpneUOW81V5zZCve9g4yd8AyU9yFTsR0QKRNM4gxUEEi4gW7n8X9gKevefi03UsMLGw4vZok5mHAj2QsaqppmaKHVnSDWyqWM7DAznW7UdFvxJwnkcZQ3eLcGfrDiS5JywXvQpLXUCko6wge/PGbAJvzDILIkVYwpIiYbT6AwLUuj+DKwAA",
+          "screenshots": [{"url": "https://cdn.discordapp.com/attachments/795684290750971945/919886170945650699/unknown.png"}]
+        },
+        {
+          "id": "2",
+          "name": "Demi-Summon glamour",
+          "created": "2021/12/13 10:22:00.000",
+          "author": "Valkynaz#5467",
+          "description": "Figured out how the petglamour commands worked, didn't read it all the way through >.>, includes the ability to glam Ifrit, Garuda, and Titan as any combination of Carbuncles or unglammed\n\nEdit: Fixed the one Titan selection I missed x.x, thanks Koopa for pointing that out",
+          "originalMessage": "https://discord.com/channels/581875019861328007/795684290750971945/919882075425894430",
+          "code": "H4sIAAAAAAAACu2aa2+bMBSG/0pk7dsIA3Nb/G3Jsi5StXYlUqU10eQASVC5RFymXpT/vgMulCZrcaQpWpg/oBxs/Pr4AQ4vEY/oXXa/8RBB3+PzIU3kSbiJk8yPVu/Hd0U0iZax1GOdSEILFZEoDwKIMCKPu6NhGy1XjeMj6PvshX7fzsMwjnpnAQ2h+RYRRULpOSI3exr2el+CEGwOVNjJEFEl5EBTrXJ7iciSBql3mKCparrOFBWm+GHjZan/4PVmLOUhXdMwz2YIGtKQBsHs1UkZkpBJBYjoeKAPTAsPjGL/U9nu/4Dc5SK4gCwViGCbw+4VdBftjssOdFyb/V7DAL0I7It6NmfECNgbEPko6SDg2E/Czpcq+DZ8HvC1EY7q+KcPc2ylA2AZ3LBCz/Xz8HVaN/OuszK5WQU0WXndu7A6fYaxZRpHrkWX69iL/DtRi3hqURNWWy061Rvs71WjJi1RjU7vDGPLwserRlf54r43WSa+8EVttWgHlXBFJiepjlYh/hva0PZIreDFKc4ToFNy6o9XfsmqRDeiySKPnMD7Xz03INO5kY1DL6GBy0Ot65eaoVrc2Kbxhj4IaM0Hbhu1rl1WHa8hlnY8H8Xupqmf0Ui81LUYqV1WwkmZvKiElXrLSpWchJU6xEq9RCasFKeVeolNWKm9Z24bNWGlTstK6cezUlUROqNJ7lLhplrc1B9wCUNlHkBLeKq3ajYDJUzVIaZqh5lwVZyuaoebsFV7z99WbMJX/QO+ai6hdd3kIoIlREv9X2W8hhP51LmokgHLVMlN67BIBtagYE3XLN2S+opsFF5AUzWYAv6zq4bE7PsrUC/yTGDBZcLLaglpoYSVcl1RYxGI9NUtdNdfgaXwFRiLIFWEZSyrMkbb3yngu7JXJgAA",
+          "screenshots": [{"url": "https://cdn.discordapp.com/attachments/795684290750971945/919882074758979644/unknown.png"}]
+        },
+        {
+          "id": "6",
+          "name": "Teleport Bar: Expansions",
+          "created": "2021/12/09 19:22:00.000",
+          "author": "Fluffy Kitsune#8657",
+          "description": "Big thanks to those that posted their own teleport bars here for inspiration!\n\nMy last preset was a little.. Big with trying to add in menus for all zones. So to make it easier for development of this preset from here on out, these are all compiled into their respective patches/expansions. Each expansion uses their respective tomestone design but are also labeled on mouse hover.\n\nLike the last Teleporter Bar, certain areas are labeled as interest points for:\n• Cities\n• Hubs\n• Beast Tribes\n• Points of Interest For Repeatable Content.\nThe Gold Saucer and Wolves Den are in their own category with two more locations in the ARR tab. This should make it easier for people to get to those areas and make them stand out more. \nAlso I didn't have enough room horizontally for more stuff.\n\nHousing, Return, and Ring teleports are all under the misc teleport tab to the far right.",
+          "originalMessage": "https://discord.com/channels/581875019861328007/795684290750971945/918568155901734942",
+          "code": "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",
+          "screenshots": [{"url": "https://cdn.discordapp.com/attachments/795684290750971945/918568154777669652/unknown.png"}]
+        }
+      ]
+    },
+    {
+      "name": "TitleEdit",
+      "website": "",
+      "presets": [
+        {
+          "id": "3",
+          "name": "Thaliak",
+          "created": "2021/12/13 10:05:00.000",
+          "author": "Thorian#3948",
+          "description": null,
+          "originalMessage": "https://discord.com/channels/581875019861328007/795684290750971945/919877725982961714",
+          "code": "TE2ew0KICAiTmFtZSI6ICJUaGFsaWFrIiwNCiAgIkxvZ28iOiAiRW5kd2Fsa2VyIiwNCiAgIkRpc3BsYXlMb2dvIjogZmFsc2UsDQogICJUZXJyaXRvcnlQYXRoIjogImV4NC8wM19rbGRfazUvdHduL2s1dDEvbGV2ZWwvazV0MSIsDQogICJDYW1lcmFQb3MiOiB7DQogICAgIlgiOiA1MCwNCiAgICAiWSI6IDEwLA0KICAgICJaIjogMzAwDQogIH0sDQogICJGaXhPblBvcyI6IHsNCiAgICAiWCI6IDQwLA0KICAgICJZIjogMTAsDQogICAgIloiOiAzMDEuNg0KICB9LA0KICAiRm92WSI6IDEuMCwNCiAgIldlYXRoZXJJZCI6IDEsDQogICJUaW1lT2Zmc2V0IjogMCwNCiAgIkJnbVBhdGgiOiAibXVzaWMvZXg0L0JHTV9FWDRfVG93bl9PX05pZ2h0LnNjZCINCn0=",
+          "screenshots": [{"url": "https://cdn.discordapp.com/attachments/795684290750971945/919877724720468008/Thaliak.png"}]
+        },
+        {
+          "id": "4",
+          "name": "The Aetherial Sea",
+          "created": "2021/12/13 09:50:00.000",
+          "author": "Thorian#3948",
+          "description": null,
+          "originalMessage": "https://discord.com/channels/581875019861328007/795684290750971945/919877725982961714",
+          "code": "TE2ew0KICAiTmFtZSI6ICJUaGUgQWV0aGVyaWFsIFNlYSIsDQogICJMb2dvIjogIkVuZHdhbGtlciIsDQogICJEaXNwbGF5TG9nbyI6IGZhbHNlLA0KICAiVGVycml0b3J5UGF0aCI6ICJleDQvMDNfa2xkX2s1L2ZsZC9rNWYxL2xldmVsL2s1ZjEiLA0KICAiQ2FtZXJhUG9zIjogew0KICAgICJYIjogLTI3MCwNCiAgICAiWSI6IC0yOTAsDQogICAgIloiOiAzMTANCiAgfSwNCiAgIkZpeE9uUG9zIjogew0KICAgICJYIjogLTI3MC41LA0KICAgICJZIjogLTMwMCwNCiAgICAiWiI6IDMwOS41DQogIH0sDQogICJGb3ZZIjogMS4wLA0KICAiV2VhdGhlcklkIjogMSwNCiAgIlRpbWVPZmZzZXQiOiAwLA0KICAiQmdtUGF0aCI6ICJtdXNpYy9leDQvQkdNX0VYNF9FdmVudF8yMS5zY2QiDQp9",
+          "screenshots": [{"url": "https://cdn.discordapp.com/attachments/795684290750971945/919873921602449408/SPOILER_The_Aetherial_Sea.png"}]
+        }
+      ]
+    },
+    {
+      "name": "Namingway",
+      "website": "",
+      "presets": [
+        {
+          "id": "5",
+          "name": "Samurai but readable",
+          "created": "2021/12/11 17:03:00.000",
+          "author": "Gregarious Jamie#2120",
+          "description": null,
+          "originalMessage": "https://discord.com/channels/581875019861328007/795684290750971945/919877725982961714",
+          "code": "{\"Id\":\"2dbf2855-8c9a-4f89-8ab3-cb5905364b94\",\"Name\":\"Samurai but readable\",\"Actions\":{\"7482\":\"Flowers :)\",\"7480\":\"Ice :x\",\"7481\":\"Moon :O\",\"7484\":\"Aoe moon UwU\",\"7485\":\"Aoe Flowers OwO\",\"7867\":\"Big boy time\",\"7478\":\"More damage!\",\"16487\":\"Big dick damage\",\"7490\":\"Little dick damage\",\"7491\":\"Little dick damage but aoe!\",\"7496\":\"Medium dick damage but a line!\",\"25781\":\"Huge cock damage\",\"16482\":\"Free charge :)\",\"25779\":\"Big dick damage but Aoe\",\"25782\":\"Huge cock damage 2: Electric boogaloo\",\"16486\":\"Nut buster 2\",\"16485\":\"Aoe nut buster 2\",\"16484\":\"DoT Nut buster 2\",\"7487\":\"Nut buster\",\"7488\":\"Aoe nut buster\",\"7489\":\"DoT Nut Buster\",\"16481\":\"Medium dick damage\",\"7499\":\"Free stickers :)\",\"7477\":\"Combo start (•_•) ( •_•)>-□-□ (-□_□)\",\"7479\":\"Faster damage!\",\"16483\":\"Bigger boy time\",\"7483\":\"Aoe combo start (but epic)\",\"7498\":\"Press me to take slightly less damage\",\"7492\":\"Zoom to the enemy!\",\"7494\":\"Cock enlargement pills\",\"7493\":\"Backstep!\",\"7495\":\"Spend your stickers on your gague ugly\",\"7497\":\"Stand in place so your thing charges\",\"7486\":\"Press me after you do a backstep for style points\",\"25780\":\"Aoe combo start (but poggers)\"},\"Statuses\":{\"1298\":\"More damage!\",\"1299\":\"More Speed!\",\"2959\":\"You can now use your massive cock damage\",\"1236\":\"The next time you do a stylish backstep, that damage is gonna be way more man\"}}",
+          "screenshots": [{"url": "https://cdn.discordapp.com/attachments/795684290750971945/919258082700304404/unknown.png"}]
+        }
+      ]
+    }
+  ]
+}

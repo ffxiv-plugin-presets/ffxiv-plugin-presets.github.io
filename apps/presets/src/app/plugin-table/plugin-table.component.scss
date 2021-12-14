@@ -1,0 +1,45 @@
+
+
+img.screenshot {
+  max-width: 150px;
+  //max-height: 150px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+}
+
+table {
+  td, th {
+    padding: 0 15px;
+  }
+}
+
+.mat-column-name {
+  width: 50%;
+
+  &td {
+    padding-top: 0.5rem;
+    vertical-align: top;
+  }
+
+  pre {
+    padding-top: 0.5rem;
+    white-space: pre-wrap;
+    font-family: unset;
+    font-size: unset;
+    margin: unset;
+    line-height: unset;
+  }
+}
+
+td.mat-column-screenshots {
+  width: 100%;
+
+  .screenshot-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

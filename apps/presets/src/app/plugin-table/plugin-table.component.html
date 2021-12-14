@@ -1,0 +1,89 @@
+
+  <div class="d-flex" mat-card-content>
+    <mat-form-field appearance="standard">
+      <mat-label>Plugin</mat-label>
+      <mat-select [value]="selectedPlugin | async" (valueChange)="selectPlugin($event)">
+        <mat-option *ngFor="let plugin of (data.plugins$ | async)?.plugins" [value]="plugin">
+          {{plugin.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="standard" class="ms-2 flex-grow-1">
+      <mat-label>Filter</mat-label>
+      <input matInput (keyup)="setFilterFromEvent($event)" #input >
+    </mat-form-field>
+  </div>
+
+
+  <mat-card>
+    <table mat-table  [dataSource]="presetsDataSource" matSort
+           matSortActive="created" matSortDisableClear matSortDirection="desc">
+
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
+        <td mat-cell *matCellDef="let row"> {{$any(row).id}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="created">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Created </th>
+        <td mat-cell *matCellDef="let row"> {{$any(row).created}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Preset </th>
+        <td mat-cell *matCellDef="let row">
+          <span>Name: <strong>{{$any(row).name}}</strong></span>&nbsp;<a target="_blank" [href]="$any(row).originalMessage" matTooltip="Open Announcement"><fa-icon [icon]="faDiscord"></fa-icon></a>
+          <span><br>Author: {{row.author}}</span>
+          <pre *ngIf="row.description">{{row.description}}</pre>
+
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="author">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Author </th>
+        <td mat-cell *matCellDef="let row"> {{$any(row).author}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="description">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> description </th>
+        <td mat-cell *matCellDef="let row"> {{$any(row).description}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="originalMessage">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> originalMessage </th>
+        <td mat-cell *matCellDef="let row"><a target="_blank" [href]="$any(row).originalMessage">Link to Message</a></td>
+      </ng-container>
+
+      <ng-container matColumnDef="code">
+        <th mat-header-cell *matHeaderCellDef> Import-Code </th>
+        <td mat-cell *matCellDef="let row">
+          <mat-form-field appearance="standard" >
+            <input #codeInput matInput type="text" [value]="row.code" readonly>
+            <button matSuffix mat-icon-button aria-label="Copy to clipboard" (click)="codeInput.selectionStart = 0; codeInput.selectionEnd = codeInput.value.length; copyToClipboard(row.code); snackBar.open('Copied!', undefined, {duration: 2000})"
+              matTooltip="Copy to Clipboard"
+            >
+              <mat-icon>copy_all</mat-icon>
+            </button>
+          </mat-form-field>
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="screenshots">
+        <th mat-header-cell *matHeaderCellDef> Screenshots </th>
+        <td mat-cell *matCellDef="let row">
+          <div>
+            <img class="screenshot" *ngFor="let img of row.screenshots" [src]="img.url" (click)="imageSelect.emit(img.url)">
+          </div>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+      <!-- Row shown when there is no matching data. -->
+      <tr class="mat-row" *matNoDataRow><td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td></tr>
+    </table>
+
+    <mat-paginator [pageSizeOptions]="[10, 25, 100]" aria-label="Select page of users"></mat-paginator>
+</mat-card>
